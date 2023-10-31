@@ -12,5 +12,5 @@
 <summary>Priority 학습 내용</summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-  ![not image](img/priority.png)
+  <img src="img/priority.png", height="300x", width="100px">
 </details>
