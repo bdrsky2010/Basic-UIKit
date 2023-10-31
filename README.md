@@ -6,8 +6,7 @@
 	<p align="center">
 		<img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/img/frame-bounds-1.png" align="center" width="32%">
 		<img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/img/frame-bounds-2.png" align="center" width="32%">
-		<img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/img/frame-bounds-3.png" align="center" width="32%">
-  </p>
+		<img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/img/frame-bounds-3.png" align="center" width="32%"></p>
 </details>
 
 <details>
