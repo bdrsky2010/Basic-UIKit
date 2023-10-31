@@ -9,9 +9,6 @@
 		<img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/img/frame-bounds-3.png" align="center" width="32%">
   </p>
 </details>
-</details>
-</details>
-</details>
 
 <details>
 <summary>Priority 학습 내용</summary>
