@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		
 		// 화면 배경색 설정
-		self.view.backgroundColor = .white
+		self.view.backgroundColor = .systemBackground
 		self.navigationItem.title = "첫 번째 뷰"
 		
 		let firstView: UIView = UIView()
@@ -89,6 +89,10 @@ class ViewController: UIViewController {
 	
 	@objc private func onTabButton() {
 		print("버튼 눌렸다")
+		self.navigationController?.pushViewController(firstTableView(), animated: true)
 	}
 }
 
+#Preview {
+	ViewController()
+}

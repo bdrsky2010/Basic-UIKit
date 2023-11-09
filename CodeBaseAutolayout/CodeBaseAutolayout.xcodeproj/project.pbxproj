@@ -15,6 +15,7 @@
 		7BF83E5F2AF69B3F006948ED /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E5E2AF69B3F006948ED /* CircleView.swift */; };
 		7BF83E622AF7D789006948ED /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E612AF7D789006948ED /* TableViewCell.swift */; };
 		7BF83E642AF7D801006948ED /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E632AF7D801006948ED /* UserData.swift */; };
+		7BF83E912AF93A4D006948ED /* firstTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E902AF93A4D006948ED /* firstTableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		7BF83E602AF7BDA0006948ED /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		7BF83E612AF7D789006948ED /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		7BF83E632AF7D801006948ED /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		7BF83E902AF93A4D006948ED /* firstTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7BF83E4A2AF66F73006948ED /* SceneDelegate.swift */,
 				7BF83E4C2AF66F73006948ED /* ViewController.swift */,
 				7BF83E5E2AF69B3F006948ED /* CircleView.swift */,
+				7BF83E902AF93A4D006948ED /* firstTableView.swift */,
 				7BF83E612AF7D789006948ED /* TableViewCell.swift */,
 				7BF83E632AF7D801006948ED /* UserData.swift */,
 				7BF83E512AF66F75006948ED /* Assets.xcassets */,
@@ -150,6 +153,7 @@
 				7BF83E622AF7D789006948ED /* TableViewCell.swift in Sources */,
 				7BF83E4D2AF66F73006948ED /* ViewController.swift in Sources */,
 				7BF83E492AF66F73006948ED /* AppDelegate.swift in Sources */,
+				7BF83E912AF93A4D006948ED /* firstTableView.swift in Sources */,
 				7BF83E4B2AF66F73006948ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
