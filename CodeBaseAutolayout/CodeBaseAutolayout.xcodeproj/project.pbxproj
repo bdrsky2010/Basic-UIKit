@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BD612542AFD4D640089B19C /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7BF83E602AF7BDA0006948ED /* data.json */; };
+		7BD612562AFDC2F30089B19C /* ToggleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD612552AFDC2F30089B19C /* ToggleViewController.swift */; };
+		7BD612582AFDC3470089B19C /* PopupButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD612572AFDC3470089B19C /* PopupButtonViewController.swift */; };
+		7BD6125A2AFDE18F0089B19C /* SegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD612592AFDE18F0089B19C /* SegmentedControlViewController.swift */; };
+		7BD6129C2AFE15BE0089B19C /* RotationRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6129B2AFE15BE0089B19C /* RotationRectViewController.swift */; };
+		7BD6129E2AFE595A0089B19C /* PullDownButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD6129D2AFE595A0089B19C /* PullDownButtonViewController.swift */; };
 		7BF83E492AF66F73006948ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E482AF66F73006948ED /* AppDelegate.swift */; };
 		7BF83E4B2AF66F73006948ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E4A2AF66F73006948ED /* SceneDelegate.swift */; };
 		7BF83E4D2AF66F73006948ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E4C2AF66F73006948ED /* ViewController.swift */; };
@@ -19,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BD612552AFDC2F30089B19C /* ToggleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewController.swift; sourceTree = "<group>"; };
+		7BD612572AFDC3470089B19C /* PopupButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupButtonViewController.swift; sourceTree = "<group>"; };
+		7BD612592AFDE18F0089B19C /* SegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlViewController.swift; sourceTree = "<group>"; };
+		7BD6129B2AFE15BE0089B19C /* RotationRectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationRectViewController.swift; sourceTree = "<group>"; };
+		7BD6129D2AFE595A0089B19C /* PullDownButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullDownButtonViewController.swift; sourceTree = "<group>"; };
 		7BF83E452AF66F73006948ED /* CodeBaseAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBaseAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF83E482AF66F73006948ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7BF83E4A2AF66F73006948ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +38,7 @@
 		7BF83E542AF66F75006948ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BF83E562AF66F75006948ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF83E5E2AF69B3F006948ED /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
-		7BF83E602AF7BDA0006948ED /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		7BF83E602AF7BDA0006948ED /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		7BF83E612AF7D789006948ED /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		7BF83E632AF7D801006948ED /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		7BF83E902AF93A4D006948ED /* firstTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTableView.swift; sourceTree = "<group>"; };
@@ -69,9 +80,14 @@
 				7BF83E5E2AF69B3F006948ED /* CircleView.swift */,
 				7BF83E902AF93A4D006948ED /* firstTableView.swift */,
 				7BF83E612AF7D789006948ED /* TableViewCell.swift */,
+				7BD612552AFDC2F30089B19C /* ToggleViewController.swift */,
+				7BD6129D2AFE595A0089B19C /* PullDownButtonViewController.swift */,
+				7BD612572AFDC3470089B19C /* PopupButtonViewController.swift */,
+				7BD612592AFDE18F0089B19C /* SegmentedControlViewController.swift */,
+				7BD6129B2AFE15BE0089B19C /* RotationRectViewController.swift */,
 				7BF83E632AF7D801006948ED /* UserData.swift */,
 				7BF83E512AF66F75006948ED /* Assets.xcassets */,
-				7BF83E602AF7BDA0006948ED /* Data.json */,
+				7BF83E602AF7BDA0006948ED /* data.json */,
 				7BF83E532AF66F75006948ED /* LaunchScreen.storyboard */,
 				7BF83E562AF66F75006948ED /* Info.plist */,
 			);
@@ -136,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD612542AFD4D640089B19C /* data.json in Resources */,
 				7BF83E552AF66F75006948ED /* LaunchScreen.storyboard in Resources */,
 				7BF83E522AF66F75006948ED /* Assets.xcassets in Resources */,
 			);
@@ -148,12 +165,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BD612582AFDC3470089B19C /* PopupButtonViewController.swift in Sources */,
 				7BF83E642AF7D801006948ED /* UserData.swift in Sources */,
+				7BD6129E2AFE595A0089B19C /* PullDownButtonViewController.swift in Sources */,
 				7BF83E5F2AF69B3F006948ED /* CircleView.swift in Sources */,
+				7BD6125A2AFDE18F0089B19C /* SegmentedControlViewController.swift in Sources */,
 				7BF83E622AF7D789006948ED /* TableViewCell.swift in Sources */,
 				7BF83E4D2AF66F73006948ED /* ViewController.swift in Sources */,
+				7BD6129C2AFE15BE0089B19C /* RotationRectViewController.swift in Sources */,
 				7BF83E492AF66F73006948ED /* AppDelegate.swift in Sources */,
 				7BF83E912AF93A4D006948ED /* firstTableView.swift in Sources */,
+				7BD612562AFDC2F30089B19C /* ToggleViewController.swift in Sources */,
 				7BF83E4B2AF66F73006948ED /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
