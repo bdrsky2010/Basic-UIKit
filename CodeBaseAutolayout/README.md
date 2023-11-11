@@ -53,3 +53,10 @@
 <!-- summary 아래 한칸 공백 두어야함 -->
   <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/rotation.gif" height="500px" width="250px">
 </details>
+
+<details>
+<summary>Activity Indicator</summary>
+
+<!-- summary 아래 한칸 공백 두어야함 -->
+  <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/activityIndicator.png" height="500px" width="250px">
+</details>
