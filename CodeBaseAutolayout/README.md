@@ -65,17 +65,17 @@
 <summary>Alert</summary>
 
 <!-- summary 아래 한칸 공백 두어야함 -->
-- Alert
+### Alert
 
 <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/alert.png" height="500px" width="250px">
   
-- AlertTextfield
+### AlertTextfield
 
 <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/alertTextfield-1.png" height="500px" width="250px">
 <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/alertTextfield-2.png" height="500px" width="250px">
 <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/alertTextfield-3.png" height="500px" width="250px">
         
-- AlertSheet
+### AlertSheet
 
  <img src="https://github.com/bdrsky2010/Basic-UIKit/blob/main/CodeBaseAutolayout/Img/alertSheet.png" height="500px" width="250px">
 </details>
