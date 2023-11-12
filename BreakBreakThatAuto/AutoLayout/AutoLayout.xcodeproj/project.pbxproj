@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B1603292AF28AFD00485A3F /* NaverWebtoonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603282AF28AFD00485A3F /* NaverWebtoonViewController.swift */; };
 		7B6622E82AEFD6F800D28EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6622E72AEFD6F800D28EC5 /* AppDelegate.swift */; };
 		7B6622EA2AEFD6F800D28EC5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6622E92AEFD6F800D28EC5 /* SceneDelegate.swift */; };
 		7B6622EC2AEFD6F800D28EC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6622EB2AEFD6F800D28EC5 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B1603282AF28AFD00485A3F /* NaverWebtoonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverWebtoonViewController.swift; sourceTree = "<group>"; };
 		7B6622E42AEFD6F800D28EC5 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6622E72AEFD6F800D28EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B6622E92AEFD6F800D28EC5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				7B6622E72AEFD6F800D28EC5 /* AppDelegate.swift */,
 				7B6622E92AEFD6F800D28EC5 /* SceneDelegate.swift */,
 				7B6622EB2AEFD6F800D28EC5 /* ViewController.swift */,
+				7B1603282AF28AFD00485A3F /* NaverWebtoonViewController.swift */,
 				7B6622ED2AEFD6F800D28EC5 /* Main.storyboard */,
 				7B6622F02AEFD6F900D28EC5 /* Assets.xcassets */,
 				7B6622F22AEFD6F900D28EC5 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1603292AF28AFD00485A3F /* NaverWebtoonViewController.swift in Sources */,
 				7B6622EC2AEFD6F800D28EC5 /* ViewController.swift in Sources */,
 				7B6622E82AEFD6F800D28EC5 /* AppDelegate.swift in Sources */,
 				7B6622EA2AEFD6F800D28EC5 /* SceneDelegate.swift in Sources */,

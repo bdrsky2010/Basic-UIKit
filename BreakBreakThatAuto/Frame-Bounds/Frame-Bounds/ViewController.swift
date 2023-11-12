@@ -96,6 +96,13 @@ class ViewController: UIViewController {
 		 true면 넘기지 않는 것이다.
 		 */
 		secondView.clipsToBounds = true
+		
+		print("bounds :: modify origin(x: 50, y: 50)")
+		print("bounds :: origin and size")
+		print(firstView.bounds.origin, firstView.bounds.size)
+		print(secondView.bounds.origin, secondView.bounds.size)
+		print(thirdView.bounds.origin, thirdView.bounds.size)
+		print()
 	}
 }
 
