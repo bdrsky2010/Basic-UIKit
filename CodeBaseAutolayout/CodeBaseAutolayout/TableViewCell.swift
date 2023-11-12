@@ -36,18 +36,22 @@ class TableViewCell: UITableViewCell {
 	private var vStack: UIStackView = {
 		let view = UIStackView()
 		view.translatesAutoresizingMaskIntoConstraints = false
-		view.axis = .vertical
-		view.distribution = .fillEqually
+		view.axis = .vertical // 스택뷰 정렬 방식
+		view.distribution = .fillEqually // 스택뷰 공간 분배
 		return view
 	}()
 	
-	// 스토리보드로 init 해줄 땐 어쩌구
-	// 코드베이스로 init 해줄 땐 이렇게 해야댐
+	/***
+	 # UITableViewCell
+	 
+	  - 스토리보드로 init 해줄 때와 코드베이스로 init 해줄 때의 코드 방식 좀 다르다
+		- 아래 코드와 같이 구현을 해줘야 함.
+	 */
 	override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 		super.init(style: style, reuseIdentifier: reuseIdentifier)
 		self.contentView.backgroundColor = .systemBackground
 		
-		print("MyTableView :: awakeFromNib() called")
+		print("MyTableView :: init() called")
 		configUI()
 		print("사이즈: ", self.contentView.frame.height)
 		
@@ -57,14 +61,14 @@ class TableViewCell: UITableViewCell {
 		fatalError("init(coder:) has not been implemented")
 	}
 	func configUI() {
-		print(self.frame)
-		print(self.contentView.frame)
 		contentView.addSubview(userProfileImg)
 		contentView.addSubview(vStack)
 		contentView.addSubview(userContentLabel)
+		
+		// stackView에 subView 추가
 		vStack.addArrangedSubview(userNameLabel)
 		vStack.addArrangedSubview(userJobLabel)
-
+		
 		NSLayoutConstraint.activate([
 			userProfileImg.widthAnchor.constraint(equalToConstant: 70),
 			userProfileImg.heightAnchor.constraint(equalToConstant: 70),
@@ -82,34 +86,6 @@ class TableViewCell: UITableViewCell {
 			userContentLabel.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
 		])
 	}
-//	func configUI() {
-//		vStack.addArrangedSubview(userNameLabel)
-//		vStack.addArrangedSubview(userJobLabel)
-//		vStack.distribution = .equalSpacing
-//		print(vStack.arrangedSubviews)
-//		
-//		contentView.addSubview(userProfileImg)
-//		contentView.addSubview(vStack)
-//		contentView.addSubview(userContentLabel)
-//		NSLayoutConstraint.activate([
-//			
-//			userProfileImg.widthAnchor.constraint(equalToConstant: 50),
-//			userProfileImg.heightAnchor.constraint(equalToConstant: 50),
-//			userProfileImg.topAnchor.constraint(equalTo: self.contentView.topAnchor, constant: 10),
-//			userProfileImg.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
-//			
-//			vStack.topAnchor.constraint(equalTo: userProfileImg.topAnchor),
-//			vStack.heightAnchor.constraint(equalTo: userProfileImg.heightAnchor),
-//			vStack.leadingAnchor.constraint(equalTo: userProfileImg.trailingAnchor, constant: 10),
-//			vStack.bottomAnchor.constraint(equalTo: userProfileImg.bottomAnchor),
-//			
-//			
-//			userContentLabel.trailingAnchor.constraint(equalTo: self.contentView.trailingAnchor, constant: -10),
-//			userContentLabel.leadingAnchor.constraint(equalTo: self.contentView.leadingAnchor, constant: 10),
-//			userContentLabel.topAnchor.constraint(equalTo: userProfileImg.bottomAnchor, constant: 10),
-//			userContentLabel.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor, constant: -10)
-//		])
-//	}
 	
 	func cellInit(name: String, job: String, content: String) {
 		print(name)
